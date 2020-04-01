@@ -1,0 +1,27 @@
+{
+    "RESTful": {
+        "http_port": 8002,
+        "https_port": 8001
+    },
+    "mysql": {
+        "host": "129.211.39.173",
+        "user": "soduko",
+        "password": "520520520",
+        "port": "3307",
+        "database": "soduko"
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379
+    },
+    "SSL": {
+        "key": "./resource/SSL/2_bosstwobread.com.key",
+        "cert": "./resource/SSL/1_bosstwobread.com_bundle.crt"
+    },
+    "thirdAPI": {
+        "easy": "https://sudoku.com/api/getLevel/easy",
+        "medium": "https://sudoku.com/api/getLevel/medium",
+        "hard": "https://sudoku.com/api/getLevel/hard",
+        "expert": "https://sudoku.com/api/getLevel/expert"
+    }
+}

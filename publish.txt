@@ -1,0 +1,6 @@
+Mac电脑copy项目到宿主机：scp -P 22 /Users/Shared/Project/Learn_2019/Soduko_Server_NodeJS/soduko.zip root@129.211.39.173:/ftp-file
+Copy源码压缩包到容器（在宿主机中执行）：docker cp /ftp-file/soduko.zip soduko-server-node:var/soduko-server-node
+进入容器:docker exec -it soduko-server-node bash
+拷贝证书：
+scp -P 22 /Users/Shared/Project/Learn_2019/Soduko_Server_NodeJS/Nginx.zip root@129.211.39.173:/ftp-file
+docker cp /ftp-file/Nginx.zip soduko-server-node:var/soduko-server-node
